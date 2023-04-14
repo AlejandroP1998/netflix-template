@@ -1,0 +1,17 @@
+.home {
+  background-color: #393E46;
+
+  .carousel {
+    display: flex;
+    justify-content: start;
+    img {
+      max-width: 80vw;
+      max-height: 50vh;
+      opacity: 0;
+      transition: 1s;
+      &.loaded{
+        opacity: 1;
+      }
+    }
+  }
+}
